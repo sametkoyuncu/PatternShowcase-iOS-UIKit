@@ -243,7 +243,7 @@ protocol InteractorDelegate: AnyObject {
     func onError()
 }
 
-class VIPERInteractor {
+class Interactor {
     weak var delegate: InteractorDelegate?
 
     func fetchPosts() {
