@@ -5,4 +5,9 @@
 //  Created by Samet Koyuncu on 23.07.2023.
 //
 
-import Foundation
+struct VIPERPost: Codable {
+    let userId: Int
+    let id: Int
+    let title: String
+    let body: String
+}

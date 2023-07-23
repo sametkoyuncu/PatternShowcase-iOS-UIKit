@@ -5,7 +5,7 @@
 //  Created by Samet Koyuncu on 23.07.2023.
 //
 
-struct Post: Codable {
+struct MVVMPost: Codable {
     let userId: Int
     let id: Int
     let title: String

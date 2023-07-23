@@ -8,7 +8,7 @@
 import Foundation
 
 class PostViewModel {
-    private var posts: [Post] = []
+    private var posts: [MVVMPost] = []
 
     func fetchPosts(completion: @escaping () -> Void) {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
@@ -21,7 +21,7 @@ class PostViewModel {
             }
 
             do {
-                self?.posts = try JSONDecoder().decode([Post].self, from: data)
+                self?.posts = try JSONDecoder().decode([MVVMPost].self, from: data)
                 DispatchQueue.main.async {
                     completion()
                 }
@@ -35,8 +35,9 @@ class PostViewModel {
         return posts.count
     }
 
-    func post(at index: Int) -> Post {
+    func post(at index: Int) -> MVVMPost {
         return posts[index]
     }
 }
+
 
