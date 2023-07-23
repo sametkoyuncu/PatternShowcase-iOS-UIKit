@@ -1,3 +1,22 @@
+# İçindekiler
+
+1. [Giriş](#pattern-showcase)
+2. [MVC 👉 Model + ViewController](#mvc--model--viewcontroller)
+3. [MVVM 👉 Model + View + ViewModel](#mvvm--model--view--viewmodel)
+4. [VIPER 👉 View + Interactor + Presenter + Entity + Router](#viper--view--interactor--presenter--entity--router)
+
+## Pattern Showcase
+
+In this project, a sample application has been developed that makes requests to an API and lists the results using different design patterns (MVC, MVVM, and VIPER). Each design pattern organizes the components of the application in different ways, making the code more modular, maintainable, and testable. This allows exploring and comparing different aspects of the application using different design patterns.
+
+## MVC 👉 Model + ViewController
+
+MVC (Model-ViewController) is a commonly used architecture in iOS application development. In this example, we demonstrate how to create a project using the MVC architecture to fetch data and display it in a table view. The Model, View, and Controller (View Controller) are represented as follows:
+
+### Model:
+
+
+
 # Pattern Showcase
 
 Bu projede, farklı tasarım desenlerini (MVC, MVVM ve VIPER) kullanarak, bir API'ye istek atan ve sonuçları listeleyen örnek bir uygulama geliştirilmiştir. Her bir tasarım deseni, uygulamanın bileşenlerini farklı şekillerde düzenleyerek, kodun daha modüler, sürdürülebilir ve test edilebilir olmasını sağlar. Bu sayede, farklı tasarım desenleriyle uygulamanın farklı yönlerini keşfetme ve kıyaslama imkanı elde edilir.
