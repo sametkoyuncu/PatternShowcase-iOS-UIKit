@@ -181,7 +181,7 @@ Tablodaki hücreler, her bir gönderi başlığını içerir. Bu örnek, basit b
 
 Viper mimarisi, iOS uygulamalarının katmanlı bir yapıda geliştirilmesine olanak tanıyan popüler bir tasarım desenidir. Viper mimarisi, uygulamayı beş ana bileşene böler: View, Interactor, Presenter, Entity ve Router. Bu bileşenler, uygulamanın temel mantığını ve işlevselliğini birbirinden bağımsız şekilde ele alır.
 
-#### View
+#### View:
 View, kullanıcı arayüzünü temsil eder ve görsel bileşenleri (UI elemanları) oluşturur. Kullanıcı arayüzündeki etkileşimleri algılar ve bu etkileşimleri Presenter'a aktarır. View, sadece kullanıcı arayüzünün oluşturulmasından ve güncellenmesinden sorumludur. İş mantığını içermez.
 
 ```swift
