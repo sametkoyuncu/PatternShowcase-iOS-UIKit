@@ -10,7 +10,7 @@ import UIKit
 class VIPERRouter {
     static func createModule() -> UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "ThirdVC") as! ThirdVC
+        let viewController = storyboard.instantiateViewController(withIdentifier: "ThirdVC") as! VIPERView
         return viewController
     }
 }

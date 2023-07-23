@@ -7,7 +7,7 @@
 
 import Foundation
 
-class PostViewModel {
+class MVVMViewModel {
     private var posts: [MVVMPost] = []
 
     func fetchPosts(completion: @escaping () -> Void) {

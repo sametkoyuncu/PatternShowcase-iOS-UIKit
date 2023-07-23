@@ -8,7 +8,7 @@
 import UIKit
 
 /// MVC - ViewController
-class FirstVC: UIViewController {
+class MVCViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var posts: [MVCPost] = []
@@ -43,7 +43,7 @@ class FirstVC: UIViewController {
     }
 }
 
-extension FirstVC: UITableViewDataSource {
+extension MVCViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }

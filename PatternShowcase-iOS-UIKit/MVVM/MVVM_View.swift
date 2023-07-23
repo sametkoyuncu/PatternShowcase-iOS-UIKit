@@ -8,10 +8,10 @@
 import UIKit
 
 /// MVVM - ViewController
-class SecondVC: UIViewController {
+class MVVMView: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    private let viewModel = PostViewModel()
+    private let viewModel = MVVMViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class SecondVC: UIViewController {
     }
 }
 
-extension SecondVC: UITableViewDataSource {
+extension MVVMView: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfPosts()
     }

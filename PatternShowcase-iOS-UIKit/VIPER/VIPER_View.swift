@@ -8,7 +8,7 @@
 import UIKit
 
 /// VIPER - ViewController
-class ThirdVC: UIViewController {
+class VIPERView: UIViewController {
     @IBOutlet private weak var tableView: UITableView!
     private var presenter: VIPERPresenter!
     private var posts: [VIPERPost] = []
@@ -28,7 +28,7 @@ class ThirdVC: UIViewController {
     }
 }
 
-extension ThirdVC: VIPERPresenterDelegate {
+extension VIPERView: VIPERPresenterDelegate {
     func showPosts(posts: [VIPERPost]) {
         self.posts = posts
         tableView.reloadData()
@@ -39,7 +39,7 @@ extension ThirdVC: VIPERPresenterDelegate {
     }
 }
 
-extension ThirdVC: UITableViewDataSource, UITableViewDelegate {
+extension VIPERView: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }

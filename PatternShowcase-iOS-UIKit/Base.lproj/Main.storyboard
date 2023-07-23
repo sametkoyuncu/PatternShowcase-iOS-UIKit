@@ -55,7 +55,7 @@
         <!--MVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstVC" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MVCViewController" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -86,7 +86,7 @@
         <!--MVVM-->
         <scene sceneID="Dbt-sa-2g4">
             <objects>
-                <viewController id="i48-u7-0Qi" customClass="SecondVC" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="i48-u7-0Qi" customClass="MVVMView" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o7L-4N-Xil">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -117,7 +117,7 @@
         <!--VIPER-->
         <scene sceneID="9xT-s0-buD">
             <objects>
-                <viewController storyboardIdentifier="ThirdVC" id="xMX-8g-4kR" customClass="ThirdVC" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdVC" id="xMX-8g-4kR" customClass="VIPERView" customModule="PatternShowcase_iOS_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AmJ-v4-hNs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
